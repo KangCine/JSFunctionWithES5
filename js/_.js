@@ -1,4 +1,4 @@
-function _filter(users, predi) {
+function _filter(list, predi) {
     var new_list = [];
     _each(list, function(val) {
         if(predi(val)) new_list.push(val);
